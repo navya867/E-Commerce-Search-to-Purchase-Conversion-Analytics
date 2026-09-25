@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-E-commerce businesses need to understand where users drop off between search and purchase. Using **36M+ browsing events and 819K+ search interactions**, I analyzed the customer journey from **search → click → product detail → add to cart → purchase** using SQL, Python, and Power BI. The analysis identified major funnel drop-offs and differences in conversion behavior across search-result volume, product attributes, time, and session search frequency.
+E-commerce businesses need to understand where users drop off between search and purchase. Using **36M+ browsing events and 819K+ search interactions**, I analyzed the customer journey from **search → click → product detail → add to cart → purchase** using SQL, Python. The analysis identified major funnel drop-offs and differences in conversion behavior across search-result volume, product attributes, time, and session search frequency.
 
 ## Business Problem
 
@@ -20,7 +20,6 @@ Key questions included:
 1. **Python/Pandas** — validated, cleaned, timestamped, and normalized the raw search and browsing data.
 2. **MySQL** — built the search-to-purchase funnel using session, product, and timestamp-level event matching.
 3. **SQL Analysis** — segmented funnel performance by result count, price bucket, category, time, and session search frequency.
-4. **Power BI** — created dashboard-ready analytical datasets to monitor search engagement, funnel drop-offs, and conversion behavior.
 
 ## Skills
 
@@ -28,7 +27,6 @@ Key questions included:
 
 **Python:** Pandas, data cleaning, data validation, transformation, exploratory analysis
 
-**Power BI:** Data modeling, KPI development, funnel analysis, data visualization, dashboarding
 
 ## Results & Business Insights
 
@@ -36,9 +34,8 @@ Key questions included:
 * Search-result volume showed **non-linear conversion behavior**, with no consistent improvement as the number of returned products increased.
 * Product **price buckets and categories showed different funnel patterns**, highlighting variation in downstream purchase behavior across product segments.
 * Purchase-containing sessions increased from **0.11% for single-search sessions to 1.13% for sessions with 11+ searches**, indicating different observed behavior among search-intensive sessions.
-* The Power BI dashboard provides visibility into **search engagement, funnel leakage, product segments, and user search behavior** for further business investigation.
+* We can show it in Power BI dashboard as it provides visibility into **search engagement, funnel leakage, product segments, and user search behavior** for further business investigation.
 
-> **Note:** These findings represent observed associations in the dataset and are not treated as causal relationships.
 
 ## Next Steps
 
